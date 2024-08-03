@@ -6,7 +6,7 @@ const fetchuser = require('../middleware/fetchuser');
 const { body, validationResult } = require('express-validator');
 const router = express.Router();
 
-require('dotenv').config({ path: '../../.env.local' });
+
 
 const JWT_SECRET = process.env.JWT_SECRET;
 
